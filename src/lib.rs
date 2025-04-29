@@ -4,6 +4,7 @@ use std::ops::{Add, AddAssign, Div, DivAssign, Index, Mul, MulAssign, Neg, Sub};
 
 pub type Point3 = Vec3;
 
+#[derive(Clone, Copy)]
 pub struct Vec3 {
     pub e: [f64; 3],
 }
